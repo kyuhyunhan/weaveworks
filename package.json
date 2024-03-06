@@ -1,0 +1,40 @@
+{
+  "name": "@weaveworks/landing-page",
+  "version": "0.1.0",
+  "private": true,
+  "description": "weaveworks landing page",
+  "author": "kyuhyun",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "deploy": "npm run build && dotenv -e .env -- gatsby-plugin-s3 deploy" 
+  },
+  "dependencies": {
+    "gatsby": "^5.12.4",
+    "gatsby-omni-font-loader": "^2.0.2",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-react-svg": "^3.3.0",
+    "gatsby-plugin-s3": "^0.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "swiper": "^10.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "autoprefixer": "^10.4.16",
+    "gatsby-plugin-postcss": "^6.12.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6"
+  }
+}
