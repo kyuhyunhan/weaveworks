@@ -1,5 +1,5 @@
 import * as React from "react";
-import LogoWhite from "@assets/images/components/logo_white.svg";
+import HeaderLogo from "@assets/images/header_logo.png";
 import { Link } from "gatsby";
 
 const Naviagtion = () => {
@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <header className="z-10 fixed flex justify-center w-screen h-[78px] py-[26px] px-[45px] bg-transparent">
       <div className="absolute left-[45px]">
-        <img src={LogoWhite} />
+        <img src={HeaderLogo} />
       </div>
 
       <Naviagtion />

@@ -10,7 +10,7 @@ import Layout from "../components/layout";
 const IndexPage: React.FC<PageProps> = () => {
   return (
     <Layout>
-      <Hero />
+      {/* <Hero />
 
       <Carousel>
         <div
@@ -52,7 +52,7 @@ const IndexPage: React.FC<PageProps> = () => {
         </div>
       </Carousel>
 
-      <Cta />
+      <Cta /> */}
     </Layout>
   );
 };
