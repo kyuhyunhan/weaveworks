@@ -1,34 +1,10 @@
 import * as React from "react";
-import HeaderLogo from "@assets/images/header_logo.png";
-import { Link } from "gatsby";
-
-const Naviagtion = () => {
-  return (
-    <nav className="flex gap-[30px] ">
-      <Link to="#" className="text-white cursor-pointer">
-        Main
-      </Link>
-      <Link to="#" className="text-white cursor-pointer">
-        Work
-      </Link>
-      <Link to="#" className="text-white cursor-pointer">
-        Projects
-      </Link>
-      <Link to="#" className="text-white cursor-pointer">
-        Contact
-      </Link>
-    </nav>
-  );
-};
+import header_logo from "@assets/images/header_logo.png";
 
 const Header = () => {
   return (
-    <header className="z-10 fixed flex justify-center w-screen h-[78px] py-[26px] px-[45px] bg-transparent">
-      <div className="absolute left-[45px]">
-        <img src={HeaderLogo} />
-      </div>
-
-      <Naviagtion />
+    <header className="max-w-[560px] min-w-80 w-full z-10 fixed h-[78px] py-[26px] px-[45px] bg-black">
+      <img src={header_logo} />
     </header>
   );
 };

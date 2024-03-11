@@ -14,9 +14,10 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit",
-    "deploy": "npm run build && dotenv -e .env -- gatsby-plugin-s3 deploy" 
+    "deploy": "npm run build && dotenv -e .env -- gatsby-plugin-s3 deploy"
   },
   "dependencies": {
+    "@u-wave/react-vimeo": "^0.9.10",
     "gatsby": "^5.12.4",
     "gatsby-omni-font-loader": "^2.0.2",
     "gatsby-plugin-alias-imports": "^1.0.5",

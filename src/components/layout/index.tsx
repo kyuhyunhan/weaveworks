@@ -7,14 +7,7 @@ export default function Layout({ children }: PropsWithChildren) {
     <div className="m-auto max-w-6xl w-full flex justify-between">
       <LeftBanner />
 
-      <RightProduct />
-      {/* <Header /> */}
-
-      {/* <main className="w-screen h-fit"> */}
-      {/* {children} */}
-      {/* </main> */}
-
-      {/* <Footer /> */}
+      <RightProduct>{children}</RightProduct>
     </div>
   );
 }
