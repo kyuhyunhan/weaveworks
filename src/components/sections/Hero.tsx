@@ -4,7 +4,7 @@ import Vimeo from "@u-wave/react-vimeo";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col items-center w-full bg-black">
+    <section className="flex flex-col items-center w-full bg-black px-10">
       <p className="text-white text-xl">커스텀 디자인 의류 생산</p>
 
       <Spacer size={4} />

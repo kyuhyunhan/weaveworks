@@ -3,7 +3,7 @@ import Spacer from "../Spacer";
 
 const Why = () => {
   return (
-    <section className="flex flex-col items-center w-full bg-black">
+    <section className="flex flex-col items-center w-full bg-black px-10">
       <div className="flex flex-col gap-2 text-white text-3xl font-bold">
         <p className="text-center">왜 위브웍스 일까요?</p>
         <p className="text-center">내 브랜드를 가장 빠르게 출시하는 방법</p>
