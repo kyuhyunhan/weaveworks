@@ -58,7 +58,7 @@ const Content = ({ caption, title, content, image }: any) => {
         className="bg-cover"
         // style="background-image: url('...'); height: 400px"
         style={{
-          backgroundImage: `url("src/assets/images/what_small.png")`,
+          // backgroundImage: `url("src/assets/images/what_small.png")`,
           height: "400px",
         }}
       />
